@@ -70,7 +70,7 @@ public class KeyRing {
 	
 	}
 	
-	//refactor the shit out of this. keyRing is a global variable in main for god's sake
+	//refactor please
 	static Key findKey(String userID) {
 		for (Key key : keyRing) {
 			if (key.getUserID() == userID) {
